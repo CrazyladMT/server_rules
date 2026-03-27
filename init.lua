@@ -251,9 +251,14 @@ core.register_on_player_receive_fields(function(player, formname, fields)
 
         -- save button
         if fields.save_rules and fields.edit_rules_input then
-            save_rules(fields.edit_rules_input)
-            core.chat_send_player(name, "Rules updated successfully.")
-            core.close_formspec(name, "rules:set")
+            local success = save_rules(fields.edit_rules_input)
+            if success then
+                core.chat_send_player(name, "Rules updated successfully.")
+                core.close_formspec(name, "rules:set")
+            else
+                core.chat_send_player(name, "Failed to update rules. Check debug.txt for more info.")
+            end
+            
             return
         end
 
