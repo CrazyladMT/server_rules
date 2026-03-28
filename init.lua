@@ -1,4 +1,4 @@
-local S = core.get_translator(minetest.get_current_modname())
+local S = core.get_translator(core.get_current_modname())
 
 local rules_path = core.get_worldpath() .. "/rules.txt"
 
