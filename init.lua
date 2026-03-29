@@ -260,9 +260,6 @@ core.register_on_player_receive_fields(function(player, formname, fields)
             else
                 core.chat_send_player(name, S("Failed to update rules. Check debug.txt for more info."))
             end
-
-            core.chat_send_player(name, S("Rules updated successfully."))
-            core.close_formspec(name, "rules:set")
             return
         end
 
