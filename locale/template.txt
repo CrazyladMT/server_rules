@@ -19,4 +19,5 @@ Show the server rules.=
 Edit the server rules.=
 
 Rules updated successfully.=
+Failed to update rules. Check debug.txt for more info.=
 Rules edit canceled.=

@@ -20,4 +20,5 @@ Show the server rules.=Показати правила сервера.
 Edit the server rules.=Змінити правила сервера.
 
 Rules updated successfully.=Правила успішно змінені.
+Failed to update rules. Check debug.txt for more info.=Не вдалося оновити правила. Перегляньте файл debug.txt для отримання додаткової інформації.
 Rules edit canceled.=Зміну правил скасовано.
