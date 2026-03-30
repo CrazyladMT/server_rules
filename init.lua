@@ -170,6 +170,8 @@ local function get_setrules_formspec(current_text)
                 (width - pad - button_w - pad - button_h), pad,
                 button_h, button_h),
 
+        "tooltip[refresh_rules;" .. S("Refresh") .. "]"
+
         -- save button
         "style[save_rules;bgcolor=green]",
         string.format("button[%.3f,%.3f;%.3f,%.3f;save_rules;" .. S("Save") .. "]",
