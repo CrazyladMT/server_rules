@@ -4,6 +4,7 @@ Server Rules=
 An improved rules interface.=
 
 Close=
+Refresh=
 Save=
 Cancel=
 
