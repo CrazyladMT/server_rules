@@ -178,7 +178,7 @@ local function get_setrules_formspec(current_text)
                 (width - pad - button_w), pad, button_w, button_h),
 
         -- cancel button
-        string.format("button[%.3f,%.3f;%.3f,%.3f;cancel_rules;" .. S("Cancel") .. "]",
+        string.format("button_exit[%.3f,%.3f;%.3f,%.3f;cancel_rules;" .. S("Cancel") .. "]",
                 pad, pad, button_w, button_h),
     }
 
@@ -268,7 +268,6 @@ core.register_on_player_receive_fields(function(player, formname, fields)
         -- cancel button
         if fields.cancel_rules then
             core.chat_send_player(name, S("Rules edit canceled."))
-            core.close_formspec(name, "rules:set")
             return
         end
     end
