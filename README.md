@@ -15,3 +15,5 @@ A mod for [Luanti](https://luanti.org) that adds a rules interface.
 ## Licenses
 
 Source code is licensed under the MIT license.
+
+test
