@@ -12,6 +12,6 @@ A mod for [Luanti](https://luanti.org) that adds a rules interface.
 - Rules are saved to `rules.txt` in the worldpath
 - Players must agree to the rules when they join for the first time to gain interact
 
-## Licenses
+## License
 
 Source code is licensed under the MIT license.
